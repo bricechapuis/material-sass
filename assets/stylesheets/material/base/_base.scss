@@ -262,14 +262,7 @@ summary {
 
 a {
   background-color: transparent;
-  color: $link-color;
-  text-decoration: $link-decoration;
   -webkit-text-decoration-skip: objects;
-
-  @include active-focus-hover {
-    color: $link-color-hover;
-    text-decoration: $link-decoration-hover;
-  }
 }
 
 a:not([href]):not([tabindex]) {
