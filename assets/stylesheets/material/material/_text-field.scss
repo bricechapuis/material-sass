@@ -14,8 +14,8 @@
   width: 100%;
 
   @include hover {
-    border-color: $textfield-border-color-hover;
-    box-shadow: inset 0 ($textfield-border-width-hover * -1) 0 ($textfield-border-width * -1) $textfield-border-color-hover;
+    border-color: black;
+    box-shadow: inset 0 ($textfield-border-width-hover * -1) 0 ($textfield-border-width * -1) black;
   }
 
   &::-ms-expand {
@@ -107,7 +107,7 @@
   padding: calc(#{$textfield-box-padding-y} - #{$textfield-border-width}) $textfield-box-padding-x;
 
   @include hover {
-    box-shadow: inset $textfield-border-width-hover $textfield-border-width-hover 0 ($textfield-border-width * -1) $textfield-border-color-hover, inset ($textfield-border-width-hover * -1) ($textfield-border-width-hover * -1) 0 ($textfield-border-width * -1) $textfield-border-color-hover;
+    box-shadow: inset $textfield-border-width-hover $textfield-border-width-hover 0 ($textfield-border-width * -1) black, inset ($textfield-border-width-hover * -1) ($textfield-border-width-hover * -1) 0 ($textfield-border-width * -1) $textfield-border-color-hover;
   }
 
   &:focus {
